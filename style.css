@@ -1,0 +1,55 @@
+
+
+.dot {
+  margin-top: 5px;
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  margin-top: 5px;
+  margin-left: 125px;
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#flag{
+  font-size: 15px;
+  font-family: 'Secular One', sans-serif;
+  width: 150px;
+  padding-left: 22px;
+  border-bottom-width: 20px;
+  margin-top: 1px;
+  color: #666666;
+}
+
+#lenght{
+  display: flex;
+  flex-directon: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#pass2{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: 'Secular One', sans-serif;
+  color: #666666;
+}
+
+.gText{
+  font-size: 15px;
+  font-family: 'Secular One', sans-serif;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #666666;
+}

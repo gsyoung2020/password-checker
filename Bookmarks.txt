@@ -1,0 +1,2 @@
+https://www.geeksforgeeks.org/split-an-array-into-chunks-in-javascript/
+https://www.geeksforgeeks.org/how-to-specify-minimum-maximum-number-of-characters-allowed-in-an-input-field-in-html/

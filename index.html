@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  </head>
+    <body>
+      <h1> This is v1.3 of pass checker</h1>
+      <h4>Updates I now have it checking for emails kinda.... It only Checks for the period and at sign for it to pass i need to look into how it works to check for like edu or com and others</h4>
+      <h5> after that i'll be working on setting up a data base to submit info</h5>
+      <div id="lenght">
+        <input type="text" id="email" maxlength="32" ></input>
+        <p class="gText" id="emailtxt"  > Email</p>
+      </div> 
+      <div id="lenght">
+        <input type="text" id="uName" maxlength="32"></input>
+        <p class="gText" id="uNametxt"> User Name [Characters Min:4]</p>
+      </div> 
+      <div id="lenght">
+        <input type="password" id="pass" maxlength="24"></input>
+        <p id="pass2"> Password 8-24 Characters</p>
+      </div> 
+      <div>
+        <span class="dot"><p id="flag">Letters Needed</p> </span>
+        <span class="dot2"><p id="flag">Captial Needed</p> </span> 
+      </div> 
+      <div>
+        <span class="dot"><p id="flag">Numbers Needed</p> </span>
+        <span class="dot2"><p id="flag">Symbols Needed</p> </span>
+      </div> 
+      <p id="passed"></p>
+      <script type="module" src="script.js"></script>
+      <script type="module" src="passtransitions.js"></script>
+  </body>
+</html>
